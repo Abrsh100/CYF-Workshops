@@ -1,8 +1,12 @@
-function Header() {
+export function App() {
+  const body = document.createElement("body");
+
   const header = document.createElement("header");
   header.innerHTML = `
-    <h1>Number Counter</h1>
-    <p>A simple counter. Press increment or decrement to change the count.</p>
-  `;
-  return header;
-}
+        <h1>Number Counter</h1>
+        <p>A simple counter. Press increment to increase the count by one.</p>
+    `;
+  body.appendChild(header);
+};
+
+return header
