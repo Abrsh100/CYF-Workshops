@@ -5,7 +5,7 @@
 
 function checkLivesNearCYF(person) {
     const cyfLocations = ["Birmingham", "Cape Town", "Glasgow", "London", "Manchester"];
-    return cyfLocations.includes(person.location);
+    return cyfLocations.includes(person.city);
 }
 
 const mo = {
@@ -16,7 +16,7 @@ const mo = {
 
 const sayed = {
     "name": "Sayed",
-    "city": "Edinburgh",
+    "city": "london",
     "focus": "SQL",
 }
 

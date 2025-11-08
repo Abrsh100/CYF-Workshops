@@ -1,6 +1,9 @@
 // Fill in the code below so that the tests pass.
 
-const people = [];
+const people = {
+    "name": []
+
+};
 
 people.push({
     "name": "Saqib",
@@ -17,7 +20,12 @@ people.push({
     "favourite_food": "macarons",
 });
 
-const favouriteFoods = [];
+const favouriteFoods = []
+ for (const person of people){
+    person["name"]
+    favouriteFoods[]
+ }
+ people.forEach(person=>favouriteFoods.push(person.favourite_food))
 
 // TODO: Fill the array favouriteFoods with the favourite foods of each person.
 // You must not type the strings (i.e. your solution should not involve you typing the word "salad").
